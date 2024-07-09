@@ -9,6 +9,134 @@
 body{
     font-family: "Azeret Mono", monospace;
     font-weight: 400;
+    font-size: 16px;
 }
 
 /*=============== Reusable Components ===============*/
+
+.container{
+    width: 1190px;
+    margin:0 auto;
+}
+.section-title{
+    color:#0D1321;
+    font-weight:700;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.section-description{
+    color:#222;
+    width: 800px;
+    margin:0 auto;
+    text-align: center;
+    opacity: 0.9;
+    margin-bottom: 70px;
+    font-size: 15px;
+    line-height: 1.5rem;
+}
+
+/*=============== Header Part ===============*/
+
+#hero{
+    height: 600px;
+    background: url('../assets/Hero-bg.png') no-repeat left center / cover;
+    text-align: center;
+}
+#hero .hero-wrapper{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    gap:25px 0;
+}
+#hero .hero-wrapper img{
+    width:17%;
+}
+#hero .hero-wrapper h1{
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 3.2rem;
+    color:#0D1321
+}
+#hero .hero-wrapper p{
+    font-size: 14px;
+    line-height: 1.5rem;
+    color:#222;
+    font-weight: 500;
+    opacity: 0.9;
+    width: 750px;
+    margin:0 auto;
+}
+#hero .hero-wrapper button{
+    color:#fff;
+    border:none;
+    background: #0D1321;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+/*============== Development Section ==============*/
+#development{
+    margin:80px;
+    padding: 80px 50px;
+    background: #fafafb;
+    border-radius: 5px;
+}
+.development-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap:30px 0;
+}
+.development-wrapper .development-box{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(to right,rgba(255,255,255,1),rgba(255, 255, 255, 0.212));
+    padding: 30px 50px;
+    gap:0 170px;
+}
+.development-wrapper .development-content-desc{
+    background: linear-gradient(to left,rgba(255,255,255,1),rgba(255, 255, 255, 0.212));
+    gap: 0 90px;
+}
+.devl-img{
+    order:-1
+}
+.development-wrapper .development-content-desc
+.development-box .development-content{
+    width: 60%;
+}
+.development-box .development-img{
+    width: 40%;
+}
+.development-wrapper .development-box h3{
+    margin-bottom: 20px;
+    font-size: 23px;
+    line-height: 2rem;
+    color:#333;
+    opacity: 0.8;
+}
+.development-wrapper .development-box p{
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color:#222;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.development-wrapper .development-box button{
+    color:#222;
+    opacity: 0.8;
+    border:2px solid #2222228a;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.development-wrapper .development-box img{
+    width: 100%;
+}
