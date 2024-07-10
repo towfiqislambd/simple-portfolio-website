@@ -39,7 +39,7 @@ body {
     line-height: 1.5rem;
 }
 
-/*=============== Header Part ===============*/
+/*======================= Header Part =========================*/
 
 #hero {
     height: 600px;
@@ -62,18 +62,18 @@ body {
 
 #hero .hero-wrapper h1 {
     font-weight: 900;
-    font-size: 38px;
+    font-size: 40px;
     line-height: 3.2rem;
     color: #0D1321
 }
 
 #hero .hero-wrapper p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.5rem;
     color: #222;
     font-weight: 500;
     opacity: 0.9;
-    width: 750px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -89,7 +89,8 @@ body {
     font-weight: 600;
 }
 
-/*============== Development Section ==============*/
+/*====================== Development Section ====================*/
+
 #development {
     margin: 50px 0 80px;
     padding: 60px 0;
@@ -131,14 +132,14 @@ body {
 
 .development-wrapper .development-box h3 {
     margin-bottom: 20px;
-    font-size: 23px;
-    line-height: 2rem;
+    font-size: 24px;
+    line-height: 2.2rem;
     color: #333;
     opacity: 0.8;
 }
 
 .development-wrapper .development-box p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.5rem;
     color: #222;
@@ -161,6 +162,7 @@ body {
 }
 
 /*============== Video Section ==============*/
+
 #video {
     margin-bottom: 80px;
 }
@@ -183,7 +185,8 @@ body {
     border: none;
 }
 
-/*============== Card Section ==============*/
+/*======================= Card Section ======================*/
+
 #card {
     margin-bottom: 80px;
 }
@@ -223,6 +226,10 @@ body {
     font-size: 22px;
 }
 
+.card-box p {
+    text-align: justify;
+}
+
 .card-box p,
 .target-box p {
     margin-bottom: 20px;
@@ -240,7 +247,8 @@ body {
     opacity: 0.98;
 }
 
-/*============== Target Section ==============*/
+/*====================== Target Section ====================*/
+
 #target {
     margin: 80px 0;
 }
@@ -264,7 +272,8 @@ body {
     margin-right: 10px;
 }
 
-/*============== Support Section ==============*/
+/*==================== Support Section ======================*/
+
 #support {
     margin: 80px 0;
 }
@@ -311,7 +320,8 @@ body {
     cursor: pointer;
 }
 
-/*============== Footer Part ==============*/
+/*========================== Footer Part =====================*/
+
 footer {
     background: #ddd;
     padding: 30px 0;
