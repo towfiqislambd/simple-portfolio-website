@@ -1,12 +1,13 @@
 /*================= Common CSS =================*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
+
+body {
     font-family: "Azeret Mono", monospace;
     font-weight: 400;
     font-size: 16px;
@@ -14,21 +15,23 @@ body{
 
 /*=============== Reusable Components ===============*/
 
-.container{
-    width: 1190px;
-    margin:0 auto;
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
 }
-.section-title{
-    color:#0D1321;
-    font-weight:700;
+
+.section-title {
+    color: #0D1321;
+    font-weight: 700;
     text-align: center;
     font-size: 28px;
     margin-bottom: 20px;
 }
-.section-description{
-    color:#222;
+
+.section-description {
+    color: #222;
     width: 800px;
-    margin:0 auto;
+    margin: 0 auto;
     text-align: center;
     opacity: 0.9;
     margin-bottom: 70px;
@@ -38,40 +41,45 @@ body{
 
 /*=============== Header Part ===============*/
 
-#hero{
+#hero {
     height: 600px;
     background: url('../assets/Hero-bg.png') no-repeat left center / cover;
     text-align: center;
 }
-#hero .hero-wrapper{
+
+#hero .hero-wrapper {
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 600px;
-    gap:25px 0;
+    gap: 25px 0;
 }
-#hero .hero-wrapper img{
-    width:17%;
+
+#hero .hero-wrapper img {
+    width: 17%;
 }
-#hero .hero-wrapper h1{
+
+#hero .hero-wrapper h1 {
     font-weight: 900;
     font-size: 38px;
     line-height: 3.2rem;
-    color:#0D1321
+    color: #0D1321
 }
-#hero .hero-wrapper p{
+
+#hero .hero-wrapper p {
     font-size: 14px;
     line-height: 1.5rem;
-    color:#222;
+    color: #222;
     font-weight: 500;
     opacity: 0.9;
     width: 750px;
-    margin:0 auto;
+    margin: 0 auto;
 }
-#hero .hero-wrapper button{
-    color:#fff;
-    border:none;
+
+#hero .hero-wrapper button {
+    color: #fff;
+    border: none;
     background: #0D1321;
     padding: 15px 20px;
     cursor: pointer;
@@ -80,63 +88,241 @@ body{
     letter-spacing: 1.5px;
     font-weight: 600;
 }
+
 /*============== Development Section ==============*/
-#development{
-    margin:80px;
+#development {
+    margin: 80px;
     padding: 80px 50px;
     background: #fafafb;
     border-radius: 5px;
 }
-.development-wrapper{
+
+.development-wrapper {
     display: flex;
     flex-direction: column;
-    gap:30px 0;
+    gap: 30px 0;
 }
-.development-wrapper .development-box{
+
+.development-wrapper .development-box {
     display: flex;
     align-items: center;
     border-radius: 5px;
-    background: linear-gradient(to right,rgba(255,255,255,1),rgba(255, 255, 255, 0.212));
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
     padding: 30px 50px;
-    gap:0 170px;
+    gap: 0 170px;
 }
-.development-wrapper .development-content-desc{
-    background: linear-gradient(to left,rgba(255,255,255,1),rgba(255, 255, 255, 0.212));
+
+.development-wrapper .development-content-desc {
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
     gap: 0 90px;
 }
-.devl-img{
-    order:-1
+
+.group3-img {
+    order: -1
 }
-.development-wrapper .development-content-desc
-.development-box .development-content{
+
+.development-box .development-content {
     width: 60%;
 }
-.development-box .development-img{
+
+.development-box .development-img {
     width: 40%;
 }
-.development-wrapper .development-box h3{
+
+.development-wrapper .development-box h3 {
     margin-bottom: 20px;
     font-size: 23px;
     line-height: 2rem;
-    color:#333;
+    color: #333;
     opacity: 0.8;
 }
-.development-wrapper .development-box p{
+
+.development-wrapper .development-box p {
     margin-bottom: 20px;
     font-size: 14px;
     line-height: 1.5rem;
-    color:#222;
+    color: #222;
     font-weight: 500;
     opacity: 0.9;
 }
-.development-wrapper .development-box button{
-    color:#222;
+
+.development-wrapper .development-box button {
+    color: #222;
     opacity: 0.8;
-    border:2px solid #2222228a;
+    border: 2px solid #2222228a;
     padding: 10px 20px;
     font-weight: 600;
     font-size: 17px;
+    cursor: pointer;
 }
-.development-wrapper .development-box img{
+
+.development-wrapper .development-box img {
     width: 100%;
+}
+
+/*============== Video Section ==============*/
+#video {
+    margin-bottom: 80px;
+}
+
+#video .video-box {
+    border: 1px solid #ddddddd0;
+    width: 940px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 2px #ddd;
+}
+
+#video .video-wrapper iframe {
+    border-radius: 12px;
+    width: 890px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+/*============== Card Section ==============*/
+#card {
+    margin-bottom: 80px;
+}
+
+#card .card-wrapper {
+    display: flex;
+    gap: 0 20px;
+    padding: 0 85px;
+}
+
+.card-wrapper .card-box {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.card-wrapper .card-box-bg {
+    background: #f2f6fe;
+}
+
+.card-box img {
+    margin-bottom: 20px;
+}
+
+.card-box h4,
+.target-box h4 {
+    margin-bottom: 20px;
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.card-box p,
+.target-box p {
+    margin-bottom: 20px;
+    color: #0D1321;
+    opacity: 0.9;
+    font-size: 14px;
+    line-height: 1.4rem;
+}
+
+.card-box a,
+.target-box a {
+    color: #0D1321;
+    font-weight: 600;
+    text-decoration: underline;
+    opacity: 0.98;
+}
+
+/*============== Target Section ==============*/
+#target {
+    margin: 80px 0;
+}
+
+.target-wrapper .target-box {
+    display: flex;
+    padding: 40px 30px;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.target-wrapper .target-box img {
+    width: 85%;
+}
+
+.target-wrapper .target-box img[src="assets/nodejs.png"] {
+    width: 70px;
+    margin-right: 10px;
+}
+
+/*============== Support Section ==============*/
+#support {
+    margin: 80px 0;
+}
+
+#support p {
+    margin-bottom: 40px;
+    color: #bbb;
+    width: 550px;
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+#support h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+#support .support-wrapper {
+    text-align: center;
+    padding: 70px 0;
+    border-radius: 10px;
+    background: url('../assets/handshake.jpg') no-repeat center / cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay;
+}
+
+#support input[type="text"] {
+    width: 470px;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+#support input[type="submit"] {
+    padding: 15px 25px;
+    border: none;
+    background: #fff;
+    color: #111;
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/*============== Footer Part ==============*/
+footer {
+    background: #ddd;
+    padding: 30px 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+footer .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+footer .footer-wrapper a {
+    padding: 0 5px;
+    font-weight: 500;
+}
+
+footer .footer-wrapper p {
+    font-size: 14px;
 }
