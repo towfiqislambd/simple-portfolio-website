@@ -194,12 +194,12 @@ body {
 #card .card-wrapper {
     display: flex;
     gap: 0 50px;
-    padding: 0 0;
 }
 
 .card-wrapper .card-box {
     padding: 50px 40px;
     border-radius: 10px;
+    width: 33.33%;
 }
 
 .card-wrapper .card-box:first-child {
@@ -296,7 +296,7 @@ body {
     padding: 70px 0;
     border-radius: 10px;
     background: url('../assets/handshake.jpg') no-repeat center / cover;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 
